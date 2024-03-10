@@ -1,0 +1,25 @@
+.weather__temp {
+  display: flex;
+
+
+
+  & .temp {
+    font-size: 24px;
+  }
+
+  & .feels-like {
+    font-size: 12px;
+  }
+
+  & .description {
+    text-transform: capitalize;
+  }
+
+  &:first-child {
+    margin-left: 0px;
+  }
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
